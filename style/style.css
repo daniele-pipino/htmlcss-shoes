@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
+}
 /* header */
 #navigator{
     list-style: none;
@@ -47,9 +52,10 @@
 }
 
 #bg-red .text{
-    font-size: 30px;
+    font-size: 20px;
     color: yellow;
     position: absolute;
+    text-align: center;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -75,9 +81,10 @@
 }
 
 #bg-green .text{
-    font-size: 30px;
+    font-size: 20px;
     color: yellow;
     position: absolute;
+    text-align: center;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -101,9 +108,10 @@
 }
 
 #bg-yellow .text{
-    font-size: 30px;
-    color: black;
+    font-size: 20px;
+    color:green;
     position: absolute;
+    text-align: center;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
