@@ -5,9 +5,11 @@
     box-sizing: border-box;
 }
 /* header */
-#navigator li{
+#navigator{
     display: inline-block;
     background-color: transparent;
+    position: fixed;
+    z-index: 1;
 }
 /* body */
 
@@ -18,18 +20,75 @@
 }
 
 #bg-red .img1 img{
-    height: 400px;
+    height: 350px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #bg-red .text{
     font-size: 30px;
+    color: yellow;
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+}
+
+/* green section */
+
+#bg-green{
+    height: 100vh;
+    background-color: green;
+    position: relative;
+}
+
+#bg-green .img1 img{
+    height: 350px;
+    position: absolute;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#bg-green .text{
+    font-size: 30px;
+    color: yellow;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* yellow section */
+
+#bg-yellow{
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+}
+
+#bg-yellow .img1 img{
+    height: 350px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#bg-yellow .text{
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
