@@ -1,0 +1,35 @@
+/* utilities */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+#navigator li{
+    display: inline-block;
+    background-color: transparent;
+}
+/* body */
+
+#bg-red{
+    height: 100vh;
+    background-color: red;
+    position: relative;
+}
+
+#bg-red .img1 img{
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bg-red .text{
+    font-size: 30px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
